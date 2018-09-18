@@ -1,7 +1,9 @@
 "# DS-WhiteBoard" 
+
 Second Project of Distributed System in The University of Melbourne.
 
 1. Introduction
+
 Shared whiteboards allow people to draw on a canvas simultaneously. It enables multi clients to present their
 ideas and communicate with each other in real time. As a team project, we develop a RMI-architecture-based
 distributed shared whiteboard in Java. It includes management part for the whiteboard room administrator,
