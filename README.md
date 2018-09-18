@@ -13,13 +13,18 @@ remote function invocations. With regard to the synchronous updating for paintin
 clients, we using RMI client-side callback functions.
 
 The functions of RMI-based distributed shared whiteboard are as follows:
-	1) A start window for server to set RMI registry ip address and port;
-	2) A start window for client to choose the user level (manager or user), set client id, username, whiteboard 
-  service ip address and port, and the whiteboard room name to create or enter;
-	3) Allow room manager to clear the canvas, open a new file, save current canvas, close the room, manage
+
+1) A start window for server to set RMI registry ip address and port;
+
+2) A start window for client to choose the user level (manager or user), set client id, username, whiteboard service ip address and port, and the whiteboard room name to create or enter;
+
+3) Allow room manager to clear the canvas, open a new file, save current canvas, close the room, manage
   current room clients list, and the new room entrance requests.
-	4) Allow multiple users to draw simultaneously on a canvas including: drawing freehand, line, rectangle,
+  
+4) Allow multiple users to draw simultaneously on a canvas including: drawing freehand, line, rectangle,
   circle, oval, and polygon with different width, color and filling style; eraser with different size; type
   Parallel or vertical words on the canvas.
-	5) Show information of current clients in the room and who is current editing the canvas;
-  6) Allow clients in the same whiteboard room to chat.
+  
+5) Show information of current clients in the room and who is current editing the canvas;
+	
+6) Allow clients in the same whiteboard room to chat.
